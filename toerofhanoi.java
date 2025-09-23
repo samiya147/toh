@@ -36,11 +36,12 @@ public class toerofhanoi
      { 
            myframe1 fl=new myframe1();
            fl.setTitle("nof of disc");
-           ImageIcon image=new ImageIcon("C:\\Users\\Wahab\\Downloads\\logo.webp");
-           fl.setIconImage(image.getImage());
+           
         fl.setSize(400,400);
          fl.setVisible(true);
          fl.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+        ImageIcon image=new ImageIcon("C:\\Users\\Wahab\\Downloads\\logo.jpg");
+           fl.setIconImage(image.getImage());
      }    
 }
+
