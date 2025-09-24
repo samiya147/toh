@@ -13,7 +13,13 @@ public class rod extends JFrame
      public void paint(Graphics g)
      {
         Graphics2D g2d=( Graphics2D) g;
-         g2d.drawLine(0,0,500,500);
+         g2d.setStroke(new BasicStroke(7));
+         g2d.setColor(Color.BLACK);
+         g2d.drawLine(50,400,500,400);
+         g2d.drawLine(70, 400, 70, 100);
+         g2d.drawLine(250, 400, 250, 100);
+         g2d.drawLine(400, 400, 400, 100);
+        
      }
    
 }
